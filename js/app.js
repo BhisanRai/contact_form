@@ -33,6 +33,9 @@ contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
     }
 
+});
+
+
     // Check empty
     function isEmpty(value) {
         if(value.trim() === '') {
@@ -71,6 +74,3 @@ contactForm.addEventListener('submit', function(e) {
     function displayError(msg) {
         document.getElementById('errorMsg').innerText = msg;
     }
-
-
-});
